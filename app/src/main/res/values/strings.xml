@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Firebase Application</string>
+
+    <string name="invalid_input" translatable="false">Invalid Input</string>
+    <string name="please_select_photo" translatable="false">Please select photo</string>
+    <string name="please_fill_data" translatable="false">Please fill data</string>
+    <string name="should_allow_permission" translatable="false">Shoull allow permission</string>
+    <string name="some_permission_denied" translatable="false">Some permission denied</string>
+    <string name="fail_get_data" translatable="false">Fail to get data</string>
+    <string name="edit_student" translatable="false">Edit Student</string>
+
+</resources>

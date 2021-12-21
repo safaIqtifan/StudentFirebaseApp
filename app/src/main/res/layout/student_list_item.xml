@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#9CD8D4D4"
+    android:padding="10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/profileImg"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:src="@drawable/profile"
+                android:padding="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/idTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintStart_toEndOf="@+id/profileImg"
+                app:layout_constraintTop_toTopOf="@+id/profileImg" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mohammed"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="32dp"
+                app:layout_constraintStart_toEndOf="@+id/idTv"
+                app:layout_constraintTop_toTopOf="@+id/profileImg" />
+
+            <TextView
+                android:id="@+id/tvAvarg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average : "
+                android:textAllCaps="true"
+                android:textColor="#689F38"
+                android:layout_margin="16dp"
+                app:layout_constraintStart_toEndOf="@+id/profileImg"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+            <TextView
+                android:id="@+id/userAvarg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="90"
+                android:textAllCaps="true"
+                android:textColor="#689F38"
+                android:layout_margin="16dp"
+                app:layout_constraintStart_toEndOf="@+id/tvAvarg"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/dotBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                app:elevation="0dp"
+                app:borderWidth="0dp"
+                android:backgroundTint="@color/transparent"
+                android:src="@drawable/dot"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيق فيربيز</string>
+    <string name="invalid_input" translatable="false">مدخل غير متوفر</string>
+    <string name="please_select_photo" translatable="false">الرجاء اختيار صورة</string>
+    <string name="please_fill_data" translatable="false">الرجاء ملأ الحقول</string>
+    <string name="should_allow_permission" translatable="false">يجب السماح بالإذن</string>
+    <string name="some_permission_denied" translatable="false">تم رفض الإذن</string>
+</resources>
